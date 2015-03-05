@@ -4,7 +4,6 @@ include('inc/header.php');
 include('inc/nav.php');
 ?>
 
-
 	
 <main>
 	<form action="contact.php">
