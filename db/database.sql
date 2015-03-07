@@ -29,9 +29,9 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `Student records` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `created_at` datetime NOT NULL,
-  `name` varchar(20) NOT NULL,
+  `fullname` varchar(20) NOT NULL,
   `gender` varchar(10) NOT NULL,
-  `message` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `Student records` (
 -- Dumping data for table `contacts`
 --
 
-INSERT INTO `contacts` (`id`, `created_at`, `name`, `gender`, `message`) VALUES
+INSERT INTO `contacts` (`id`, `created_at`, `fullname`, `gender`, `email`) VALUES
 /*(1, '2015-02-02 00:00:00', 'Joe', 'Male', 'Hello'),
 (2, '2015-02-02 16:18:00', 'mike', 'male', 'boo'),
 (3, '2015-02-02 16:42:53', 'mike', 'male', 'boo');*/

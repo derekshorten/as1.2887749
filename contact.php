@@ -8,8 +8,8 @@ include('inc/nav.php');
 <main>
 	<form action="contact.php">
 		<?php
-		$name = "";
-		$message = "";
+		$fullname = "";
+		$email = "";
 		if (isset($_GET['id'])) {
 		 	echo '<input type="hidden" name="update" value="'.$_GET['id'].'"/>';
 
@@ -17,9 +17,9 @@ include('inc/nav.php');
 			$result = $conn->query($sql);
 
     		while($row = $result->fetch_assoc()) {
-    			$name = $row["name"];
+    			$fullname = $row["fullname"];
     			$gender = $row["gender"];
-    			$message = $row["message"];       
+    			$email = $row["email"];       
     		}
     	}
 		?>
@@ -34,8 +34,8 @@ include('inc/nav.php');
 	        <option value="female">Female</option>
 	    </select>
 
-	    <label for="message">Message</label>
-	    <textarea name="message" id="message"><?php echo $message; ?></textarea>
+	    <label for="eamil">email</label>
+	    <textarea name="email" id="eamil"><?php echo $email; ?></textarea>
 
 	    <input type="submit" value="Save"/>
 	</form>
