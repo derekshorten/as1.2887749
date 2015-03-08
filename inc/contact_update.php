@@ -1,10 +1,10 @@
 <?php
 $id = $_GET["update"];
-$fullname = $_GET["name"];
+$name = $_GET["name"];
 $gender = $_GET["gender"];
 $email = $_GET["email"];
 
-$sql = "UPDATE student records SET 
+$sql = "UPDATE students SET 
 		name = '$name', 
 		gender = '$gender', 
 		email = '$email'

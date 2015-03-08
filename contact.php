@@ -6,9 +6,9 @@ include('inc/nav.php');
 
 	
 <main>
-	<form action="contact.php">
+	<form action="contact.php" >
 		<?php
-		$fullname = "";
+		$name = "";
 		$email = "";
 		if (isset($_GET['id'])) {
 		 	echo '<input type="hidden" name="update" value="'.$_GET['id'].'"/>';
@@ -25,7 +25,7 @@ include('inc/nav.php');
 		?>
 
 		<label for="name">Student Name</label>
-		<input type="text" name="name" id="name" value="<?php echo $fullname; ?>" />
+		<input type="text" name="name" id="name" value="<?php echo $name; ?>" />
 	
 		<label for="gender">Gender</label>
 	    <select name="gender" id="gender">
@@ -35,7 +35,7 @@ include('inc/nav.php');
 	    </select>
 
 	    <label for="eamil">email</label>
-	    <input type="email" id="eamil"><?php echo $email; ?></label>
+	    <input type="message" name="email"><?php echo $email; ?></label>
 
 	    <input type="submit" value="Save"/>
 	</form>
