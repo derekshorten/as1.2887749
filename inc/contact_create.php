@@ -1,9 +1,9 @@
 <?php
-$fullname = $_GET["fullname"];
+$fullname = $_GET["name"];
 $gender = $_GET["gender"];
 $email = $_GET["email"];
 
-$sql = "INSERT INTO contacts (created_at, fullname, gender, email)
+$sql = "INSERT INTO students (created_at, name, gender, email)
 		VALUES (NOW(), '$fullname', '$gender', '$email')";
 
 $conn->query($sql);

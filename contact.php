@@ -13,11 +13,11 @@ include('inc/nav.php');
 		if (isset($_GET['id'])) {
 		 	echo '<input type="hidden" name="update" value="'.$_GET['id'].'"/>';
 
-		 	$sql = "SELECT * FROM contacts WHERE id = ".$_GET['id'];
+		 	$sql = "SELECT * FROM students WHERE id = ".$_GET['id'];
 			$result = $conn->query($sql);
 
     		while($row = $result->fetch_assoc()) {
-    			$fullname = $row["fullname"];
+    			$name = $row["name"];
     			$gender = $row["gender"];
     			$email = $row["email"];       
     		}

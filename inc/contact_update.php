@@ -1,13 +1,13 @@
 <?php
 $id = $_GET["update"];
-$name = $_GET["name"];
+$fullname = $_GET["name"];
 $gender = $_GET["gender"];
-$message = $_GET["message"];
+$email = $_GET["email"];
 
-$sql = "UPDATE contacts SET 
+$sql = "UPDATE student records SET 
 		name = '$name', 
 		gender = '$gender', 
-		message = '$message'
+		email = '$email'
 		WHERE id = ".$id;
 
 // echo $sql;
