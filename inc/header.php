@@ -8,6 +8,6 @@
 
 	<body>
 		<header>			
-			<strong>Assignment 1 CRUD<br/>Student Records</strong>	
+			<strong>Assignment 1 CRUD--Student Records</strong>	
 			<img src="./graphics/logo.jpg"/>
 		</header>

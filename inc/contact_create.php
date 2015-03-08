@@ -4,7 +4,7 @@ $gender = $_GET["gender"];
 $email = $_GET["email"];
 
 $sql = "INSERT INTO students (created_at, name, gender, email)
-		VALUES (NOW(), '$fullname', '$gender', '$email')";
+		VALUES (NOW(), '$name', '$gender', '$email')";
 
 $conn->query($sql);
 
