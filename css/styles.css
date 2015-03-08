@@ -1,8 +1,8 @@
 html, body {padding:0; border:0px; margin:0; font-family:cursive; background-color:#7FA19D}
 
-header {width:100%; height:90px; overflow:hidden; position:relative; border-bottom:1px solid #FABA0A; text-align:center;}
+header {width:100%; height:90px; overflow:hidden; position:absolute; border-bottom:1px solid #EBD2C5; text-align:center;}
 
-header strong {font-weight:200; font-size:2em; display:block; padding:10px; text-align:center; padding:0; margin:10px;}
+header strong {font-weight:200; font-size:2em; display:block; padding:10px; text-align:center; padding:0; margin:10px; background-color:#F2590A;}
 
 header img {position:absolute; left:15px;  top:0; height:100%;}
 
@@ -14,7 +14,7 @@ h1 {font-size:5em; font-weight:200; padding:0; margin:0;}
 
 h2 {font-size:1.2em; font-weight:200; border-bottom:1px solid #FFFFFF; padding:0 0 20px 0;}
 
-dl {line-height:150%; float:left; width:100%; padding-bottom:10px}
+dl {line-height:200%; float:left; width:100%; padding-bottom:10px}
 
 dl dt {font-weight:700; width:100px; float:left; clear:left;}
 
@@ -28,7 +28,7 @@ form label+input,
 
 form label+select,
 
-form label+textarea {margin-bottom:20px; width:200px}
+form label+textarea {margin-bottom:20px; width:250px}
 
 form input[type='submit'] {display:block !important; margin-bottom:20px;}
 

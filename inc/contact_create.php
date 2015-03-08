@@ -9,4 +9,6 @@ $sql = "INSERT INTO students (created_at, name, gender, email)
 $conn->query($sql);
 
 header('Location: contact.php') ;
+
+
 ?>

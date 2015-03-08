@@ -9,5 +9,6 @@
 	<body>
 		<header>			
 			<strong>Assignment 1 CRUD--Student Records</strong>	
-			<img src="./graphics/logo.jpg"/>
+			<img src="./graphics/logo.jpg"width="300",align="right" />
+		
 		</header>

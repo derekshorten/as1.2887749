@@ -6,6 +6,7 @@ include('inc/nav.php');
 
 	
 <main>
+
 	<form action="contact.php" >
 		<?php
 		$name = "";
@@ -35,7 +36,7 @@ include('inc/nav.php');
 	    </select>
 
 	    <label for="eamil">email</label>
-	    <input type="message" name="email"><?php echo $email; ?></label>
+	    <input type="text" name="email"><?php echo $email; ?></label>
 
 	    <input type="submit" value="Save"/>
 	</form>
@@ -60,6 +61,7 @@ include('inc/nav.php');
     // always display the results from the database
     include('inc/contact_read.php');
 	?> 
+
 </main>	
 
 
