@@ -36,10 +36,10 @@ CREATE TABLE IF NOT EXISTS `Student records` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
 
 --
--- Dumping data for table `contacts`
+-- Dumping data for table `student records`
 --
 
-INSERT INTO `contacts` (`id`, `created_at`, `fullname`, `gender`, `email`) VALUES
+INSERT INTO `student records` (`id`, `created_at`, `fullname`, `gender`, `email`) VALUES
 /*(1, '2015-02-02 00:00:00', 'Joe', 'Male', 'Hello'),
 (2, '2015-02-02 16:18:00', 'mike', 'male', 'boo'),
 (3, '2015-02-02 16:42:53', 'mike', 'male', 'boo');*/

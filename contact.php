@@ -25,7 +25,7 @@ include('inc/nav.php');
 		?>
 
 		<label for="name">Student Name</label>
-		<input type="text" name="name" id="name" value="<?php echo $name; ?>" />
+		<input type="text" name="name" id="name" value="<?php echo $fullname; ?>" />
 	
 		<label for="gender">Gender</label>
 	    <select name="gender" id="gender">
@@ -35,7 +35,7 @@ include('inc/nav.php');
 	    </select>
 
 	    <label for="eamil">email</label>
-	    <textarea name="email" id="eamil"><?php echo $email; ?></textarea>
+	    <input type="email" id="eamil"><?php echo $email; ?></label>
 
 	    <input type="submit" value="Save"/>
 	</form>

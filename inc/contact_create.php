@@ -1,10 +1,10 @@
 <?php
-$name = $_GET["name"];
+$fullname = $_GET["fullname"];
 $gender = $_GET["gender"];
-$message = $_GET["message"];
+$email = $_GET["email"];
 
-$sql = "INSERT INTO contacts (created_at, name, gender, message)
-		VALUES (NOW(), '$name', '$gender', '$message')";
+$sql = "INSERT INTO contacts (created_at, fullname, gender, email)
+		VALUES (NOW(), '$fullname', '$gender', '$email')";
 
 $conn->query($sql);
 

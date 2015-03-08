@@ -9,9 +9,9 @@ if ($result->num_rows > 0) {
     echo '<tr>';
     echo '<th>ID</th>';
     echo '<th>Created</th>';
-    echo '<th>Name</th>';
+    echo '<th>fullname</th>';
     echo '<th>Gender</th>';
-    echo '<th>Message</th>';
+    echo '<th>email</th>';
     echo '<th>&nbsp;</th>';
     echo '<th>&nbsp;</th>';
     echo '</thead>';
@@ -20,9 +20,9 @@ if ($result->num_rows > 0) {
     	echo '<tr>';
     	echo '<td>'.$row["id"].'</td>';
         echo '<td>'.$row["created_at"].'</td>';
-    	echo '<td>'.$row["name"].'</td>';
+    	echo '<td>'.$row["fullname"].'</td>';
     	echo '<td>'.$row["gender"].'</td>';
-    	echo '<td>'.$row["message"].'</td>';
+    	echo '<td>'.$row["email"].'</td>';
         echo '<td><a href="contact.php?delete='.$row["id"].'">Delete</a></td>';
         echo '<td><a href="contact.php?id='.$row["id"].'">Update</a></td>';
     	echo '</tr>';
